@@ -1,0 +1,49 @@
+<div class="book">
+            <a href="rooms">BOOK NOW</a>
+        </div>
+
+        MHB = Modern hotle BD
+
+        <div class="sub_menu-content">
+                        <a href="">Superior Room</a>
+                        <a href="">Deluxe Room</a>
+                        <a href="">Signature Room</a>
+                        <a href="">Luxury Suite Room</a>
+                    </div>
+
+
+
+        <div class="his">
+        <div class="content">
+            <div class="os_br">
+        
+            </div>
+            <div class="cnt_h1">
+                <h1 class="cnt_head">
+                    OUR
+                    <br>
+                    HISTORY
+                </h1>
+            </div>
+            <div class="hs_cnt">
+                <p class="cnt_pra">
+                    Leather detail shoulder contrastic colour contour stunning silhouette working peplum. Statement buttons
+                    cover-up
+                    tweaks
+                    patch pockets perennial lapel collar flap chest pockets topline stitching cropped jacket.
+                    <br>
+                    Exercitation photo booth stumptown tote bag Banksy, elit small batch freegan sed. Craft beer elit seitan
+                    exercitation,
+                    photo booth et 8-bit kale chips proident chillwave deep v laborum. Aliquip veniam delectus, Marfa
+                    eiusmod Pinterest
+                    in
+                    do umami readymade swag. Selfies iPhone Kickstarter, drinking vinegar
+                </p>
+            </div>
+        
+        </div>
+        
+        <div class="contentb">
+            <img src="img/claint_img.jpg" alt="">
+        </div>
+    </div>

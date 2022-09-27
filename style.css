@@ -1,0 +1,706 @@
+
+body{
+    margin: 0;
+    padding: auto;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+.body{
+    height: 100%;
+    margin: 0;
+    padding: 0px;
+    background-image: url(img/bg_cover2.jpg);
+    background-repeat: no-repeat ;
+    background-size: cover;
+}
+.menu_bar{
+    
+    width: auto;
+    float: right;
+    
+}
+.header{
+    width: 100%;
+    height: 50px;
+    
+    
+}
+
+.logo{
+    float: left;
+    text-align: center;
+    font-size: 40px;
+    width: 200px;
+    height: 100px;
+    margin: 0 0 0 50;
+    font-weight: 900;
+    
+}
+.logo :hover{
+    box-shadow: 0px 10px 20px 0 rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
+}
+.logo a{
+    text-decoration: none ;
+    color: red;
+    font-style: normal;
+
+}
+.up_box{
+    border-color: red;
+    border-style: solid;
+    border-width: 0px 0px 2px 0px;
+    padding: 5px 0px 0px 0px;
+    width: 1400px;
+    float: right;
+    
+}
+
+.menu_bar{
+    height: 52px;
+    float: right;
+    width: 950;
+    padding: 8px 0px 0px 0px ;
+   
+}
+.menu_bar a{
+    float: left;
+    text-decoration: none;
+    float: left;
+    padding: 10px;
+    color: red;
+    margin-right: 20;
+    height: 28px;
+    font-size: 20px;
+    padding: 10px;
+    font-weight: 900;
+}
+.menu_bar a:hover {
+    background-color: rgb(255, 0, 0);
+    color: white;
+    border: 1px solid red;
+}
+.book a {
+    color: rgb(255, 255, 255);
+    float: right;
+    text-decoration: none;
+    height: 28px;
+    font-size:30px;
+    padding: 20px;
+    background-color: rgb(255, 0, 0);
+     
+}
+.book a:hover{
+    background-color: rgb(0, 0, 0);
+    border: 1px solid red;
+}
+
+.dropdown {
+  display: inline-block;
+  position: relative;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  width: 100%;
+  overflow: auto;
+  box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.4);
+  margin-top: 40px;
+  font-weight: 100;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.dropdown-content a {
+  display: block;
+  color: #ff0000;
+  background-color: rgb(0, 0, 0);
+  padding: 5px;
+  text-decoration: none;
+  width: 128px;
+}
+.dropdown-content a:hover {
+  color: #ffffff;
+  background-color: #ff0000;
+}
+.dropdown .btn{
+  color: red;
+    float: right;
+    text-decoration: none;  
+    height: 51px;
+    font-size: 20px;
+    padding: 10px;  
+}
+.btn{
+    
+    background-color:transparent;
+    border: none;
+}
+
+hr{
+    margin-top: 50px;
+    border: 1px solid red;
+    width: 50;
+    float: inline-end
+}
+.header-tag{
+    font-size: 40px;
+    margin: 200px 0 0 0px;
+    color:white;
+    padding: 0 0 0 350;
+}
+
+.rmbtn{
+    height: 100%;  
+    border: 1px solid red ;
+    color: red;
+    width: 180px;
+    height: 52%;
+    position: relative;
+    display: block;
+    margin-bottom: 50 ;
+
+     
+}
+
+.rmbtn a{  
+    text-decoration: none;
+    font-size: 50px;
+    color: red;
+    
+}
+.rmbtn:hover{  
+    color: rgb(255, 255, 255);
+    background-color: red;
+    
+}
+.rmbtn a:hover{  
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background-color: red;
+    
+}
+
+
+.choose {
+    text-align: center;
+    height: 150px;
+    width: 900px;
+    color: red;
+    background-color: rgb(0, 0, 0);
+    margin-left: 50; 
+    margin-top: 100;  
+    
+}
+.choose p {
+    width: 300; 
+    font-size: 35;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+    margin-left: 280;
+
+
+}
+.choose:hover  {
+  color: white;
+    
+    box-shadow: 10px 10px 60px 0 rgb(255, 0, 0);
+}
+.date form {
+    float: left;
+    padding: 5px;
+    margin-top: 20;
+}
+.date_main .rmbtn{
+    float: right;
+}
+
+
+/*////////--______________------/ animation start--------_________-//////////*/
+
+.box_for_search{
+
+  width: 50px;
+  height: 50px;
+  background: rgb(255, 0, 0);
+  position: relative;
+  animation-name: example;
+  animation: example 5s infinite;
+  animation-duration:  4s ;  
+  animation-fill-mode: forwards;
+  border-radius: 100%;
+  float: right;
+}
+@keyframes example {
+  from {top: 0px;}
+  to {top: 830px; background-color: rgb(0, 0, 0);}
+}
+.box_for_search1{
+
+  width: 20px;
+  height: 20px;
+  background: rgb(255, 0, 0);
+  position: relative;
+  animation-name: example;
+  animation: example 2s infinite; 
+  animation-fill-mode: forwards;
+  border-radius: 100%;
+  float: right;
+}
+@keyframes example {
+  from {top: 0px;}
+  to {top: 830px; background-color: rgb(0, 0, 0);}
+}
+.box_for_search2{
+
+  width: 40px;
+  height: 40px;
+  background: rgb(255, 0, 0);
+  position: relative;
+  animation-name: example;
+  animation: example 5s infinite; 
+  animation-fill-mode: forwards;
+  border-radius: 100%;
+  float: right;
+}
+@keyframes example {
+  from {top: 0px;}
+  to {top: 830px; background-color: rgb(0, 0, 0);}
+}
+.box_for_search3{
+
+  width: 50px;
+  height: 50px;
+  background: rgb(255, 0, 0);
+  position: relative;
+  animation-name: example;
+  animation: example 3s infinite; 
+  animation-fill-mode: forwards;
+  border-radius: 100%;
+  float: right;
+}
+@keyframes example {
+  from {top: 0px;}
+  to {top: 830px; background-color: rgb(0, 0, 0);}
+}
+.box_for_search4{
+
+  width: 30px;
+  height: 30px;
+  background: rgb(255, 0, 0);
+  position: relative;
+  animation-name: example;
+  animation: example 2s infinite; 
+  animation-fill-mode: forwards;
+  border-radius: 100%;
+  float: right;
+}
+@keyframes example {
+  from {top: 0px;}
+  to {top: 830px; background-color: rgb(0, 0, 0);}
+}
+.box_for_search5{
+
+  width: 10px;
+  height: 10px;
+  background: rgb(255, 0, 0);
+  position: relative;
+  animation-name: example;
+  animation: example .5s infinite; 
+  animation-fill-mode: forwards;
+  border-radius: 100%;
+  float: right;
+  margin: 20px;
+}
+@keyframes example {
+  from {top: 0px;}
+  to {top: 830px; background-color: rgb(0, 0, 0);}
+}
+.box_for_search5{
+
+  width: 30px;
+  height: 30px;
+  background: rgb(255, 0, 0);
+  position: relative;
+  animation-name: example;
+  animation: example 1s infinite; 
+  animation-fill-mode: forwards;
+  border-radius: 100%;
+  float: right;
+  margin: 20px;
+}
+@keyframes example {
+  from {top: 0px;}
+  to {top: 830px; background-color: rgb(0, 0, 0);}
+}
+.box_for_search6{
+
+  width: 20px;
+  height: 20px;
+  background: rgb(255, 0, 0);
+  position: relative;
+  animation-name: example;
+  animation: example 8s infinite; 
+  animation-fill-mode: forwards;
+  border-radius: 100%;
+  float: right;
+}
+@keyframes example {
+  from {top: 0px;}
+  to {top: 830px; background-color: rgb(0, 0, 0);}
+}
+.box_for_search7{
+
+  width: 60px;
+  height: 60px;
+  background: rgb(255, 0, 0);
+  position: relative;
+  animation-name: example;
+  animation: example 7s infinite; 
+  animation-fill-mode: forwards;
+  border-radius: 100%;
+  float: right;
+}
+@keyframes example {
+  from {top: 0px;}
+  to {top: 830px; background-color: rgb(0, 0, 0);}
+}
+.box_for_search8{
+
+  width: 30px;
+  height: 30px;
+  background: rgb(255, 0, 0);
+  position: relative;
+  animation-name: example;
+  animation: example 2s infinite; 
+  animation-fill-mode: forwards;
+  border-radius: 100%;
+  float: right;
+}
+@keyframes example {
+  from {top: 0px;}
+  to {top: 830px; background-color: rgb(0, 0, 0);}
+}
+.box_for_search9{
+
+  width: 50px;
+  height: 50px;
+  background: rgb(255, 0, 0);
+  position: relative;
+  animation-name: example;
+  animation: example 9s infinite; 
+  animation-fill-mode: forwards;
+  border-radius: 100%;
+  float: right;
+  margin: 20px;
+}
+@keyframes example {
+  from {top: 0px;}
+  to {top: 830px; background-color: rgb(0, 0, 0);}
+}
+.box_for_search10{
+
+  width: 40px;
+  height: 40px;
+  background: rgb(255, 0, 0);
+  position: relative;
+  animation-name: example;
+  animation: example .8s infinite; 
+  animation-fill-mode: forwards;
+  border-radius: 100%;
+  float: right;
+  margin: 20px;
+}
+@keyframes example {
+  from {top: 0px;}
+  to {top: 830px; background-color: rgb(0, 0, 0);}
+}
+.box_for_search11{
+
+  width: 30px;
+  height: 30px;
+  background: rgb(255, 0, 0);
+  position: relative;
+  animation-name: example;
+  animation: example 6s infinite; 
+  animation-fill-mode: forwards;
+  border-radius: 100%;
+  float: right;
+  margin: 50px;
+}
+@keyframes example {
+  from {top: 0px;}
+  to {top: 830px; background-color: rgb(0, 0, 0);}
+}
+.box_for_search12{
+
+  width: 70px;
+  height: 70px;
+  background: rgb(255, 38, 0);
+  position: relative;
+  animation-name: example;
+  animation: example 8s infinite; 
+  animation-fill-mode: forwards;
+  border-radius: 100%;
+  float: right;
+  margin: 20px;
+}
+@keyframes example {
+  from {top: 0px;}
+  to {top: 748px; background-color: rgb(0, 0, 0);}
+}
+
+/*////////----===========----/ animation end------============---//////////*/
+
+
+.content{
+    width: 50%;
+    height: 400px;
+    float: left;
+    font-size: 30;
+
+    
+}
+
+.cnt_h1{
+    width: 320;
+    color: rgb(0, 0, 0);
+    padding-left: 100;
+    overflow: hidden;
+    display: block;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.os_br{
+    background-color: rgb(0, 0, 0);
+    height: 10px;
+    width: 80px;
+    display: block;
+    position: relative;
+    top: 80;
+}
+
+.contentb{
+    background-color: transparent;
+    float: right;
+    position: relative;
+    top: -120;
+    border: 5px solid rgb(255, 255, 255);
+    right: 50;
+    display: block;
+}
+.cnt_pra{
+    padding-left: 30px;
+}
+
+
+
+/*////////--------/Room start from hare---------//////////*/
+
+.all_rooms{
+    padding-left: 150;
+    background-color: black;
+}
+.main_cnt{
+    width: 100%;
+    height: 500;
+    background-color: rgb(0, 0, 0);
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+.main_cnth1{
+  text-align: center;
+     margin: 0;
+    padding: 0;
+    background-color: #ff0000;
+    color: rgb(255, 255, 255);
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+.main_cnth1:hover{
+  color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+  
+}
+
+.child_cnt{
+    background-color: #000000;
+    width: 19%;
+    height: 350;
+    margin: 20px;
+    float: left;
+    border: 4px solid rgb(255, 0, 0);
+    border-radius: 15px 50px; 
+    box-shadow: 10px 10px 80px 0 rgb(199, 18, 18);
+
+}
+
+
+.child_cnt:hover{
+    background-color: red;
+    box-shadow: 10px 20px 20px 0 rgb(141, 141, 141);
+    border: 30px solid rgb(255, 0, 0);
+}
+
+.img img{
+    height: 60%;
+    width: 100%;
+    border-radius: 15px 50px; 
+}
+
+/*////////////////////---------------------- footer-------------------------------*/
+
+.btn_footer{
+  background-color: rgb(0, 0, 0);
+  width: 100%;
+  height: 100px;
+  position: relative;
+  float: right;
+  
+
+}
+.btnf{
+  height: 50px;
+  width: 150px;
+  background-color: red;
+  text-align: center;
+  display: block;
+  position: absolute;
+  margin-left: 48% ;
+}
+.btnf a{
+  text-decoration: none;
+  font-size: 35;
+  font-weight: 700;
+  color: black;
+}
+.footer_about_us{
+  height: 550px;
+  width: 100%;
+  background-color: #000000;
+
+
+}
+.footer_frist{
+  height: 70%;
+  width: 30%;
+  background-color: rgb(0, 0, 0);
+  position: relative;
+  float: left;
+  margin: 10px;
+  border: 3px solid rgb(255, 0, 0);
+  border-radius: 10%;
+  
+}
+.footer_frist:hover{
+    box-shadow: 10px 10px 30px 0 rgb(255, 0, 0);
+}
+.footer_frist_content{
+  padding: 40px;
+  text-align: center;
+}
+.footer_header{
+  color: rgb(255, 255, 255);
+  background-color: red;
+}
+.footer_text{
+  color: #ffffff;
+  float: left;
+  text-align: left;
+}
+.footer_frist_content a{
+  padding: 5px;
+  border: 1px solid red;
+  text-decoration: none;
+  color: rgb(255, 0, 0);
+}
+.copyright{
+  background-color: #ff0000;
+}
+.copyright p{
+  text-align: center;
+  font-size: 18px;
+  margin: 0;
+  padding-top: 20;
+  color: rgb(255, 255, 255);
+  padding-bottom: 30;
+
+}
+
+
+
+
+
+/*/////-------------------contact from--------------///*/
+
+
+
+
+
+body {font-family: Arial, Helvetica, sans-serif;}
+
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid rgb(255, 0, 0);
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  color: rgb(255, 255, 255);
+  background-color: rgb(0, 0, 0);
+}
+
+input[type=submit] {
+  background-color: #ff0000;
+  color: rgb(255, 255, 255);
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #000000;
+  border: 1px solid red;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #000000;
+  color: #ff0000;
+  padding: 20px;
+}
+
+
+
+
+/*/////-------------------About Us--------------///*/
+
+.all_abt_us{
+  width: 100%;
+  height: 700px;
+  background-color: rgb(0, 0, 0);
+  float: left;
+}
+.abt_us{
+
+  text-align: center;
+  color: #ffffff;
+  background-color: red ;
+  height: 420px;
+  width: 420px; 
+ border-radius: 100%;
+ float: left;
+ margin: 100;
+}
+.misket img{
+  height: 400px;
+  width: 400px;
+  border-radius: 100%;
+}
